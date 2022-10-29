@@ -1,4 +1,5 @@
 def vol_inorg(ams):
+    ##### ams is Dataframe with columns NH4, SO4, NO3, and Chl ####
     # density
     Rho_NH4NO3 = 1.72                                       # From lide, 2001, Fierz et al., 2010
     Rho_NH42SO4 = 1.77                                      # From Lide, 2001, Fierz et al., 2010
